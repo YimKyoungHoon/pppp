@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Raleway:wght@100&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  background-color: #000;
+}
+header .inner {
+  width: 1180px;
+  height: 150px;
+  margin: 0 auto;
+  position: relative;
+}
+header .inner .pic {
+  position: absolute;
+  left: 30px;
+  bottom: 20px;
+}
+header .inner .pic a img {
+  width: 300px;
+  height: 100px;
+  object-fit: cover;
+}
+header .inner nav #menuWeb {
+  position: absolute;
+  right: 30px;
+  bottom: 0;
+}
+header .inner nav #menuWeb li {
+  float: left;
+}
+header .inner nav #menuWeb li a {
+  display: block;
+  padding: 14px 40px;
+  font: bold 14px/1 "arial";
+  color: #777;
+}
+header .inner nav #menuWeb li a:hover {
+  background-color: #fff;
+  color: #555;
+}
+
+figure {
+  width: 100%;
+  height: calc(100vh - 120px);
+  overflow: hidden;
+}
+figure .inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+figure .inner p {
+  color: #000;
+  position: absolute;
+  top: 60%;
+  left: 63%;
+  font: bold 24px/2 "Black And White Picture";
+}
+
+#news {
+  width: 100%;
+  padding: 200px 0;
+}
+#news .inner {
+  width: 1180px;
+  margin: 0 auto;
+  position: relative;
+}
+#news .inner h1 {
+  font: bold 48px/1 "Black And White Picture";
+  color: yellow;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#news .inner .wrap {
+  width: 100%;
+}
+#news .inner .wrap article {
+  width: 280px;
+  float: left;
+  margin-right: 20px;
+}
+#news .inner .wrap article:last-child {
+  margin-right: 0px;
+}
+#news .inner .wrap article .pic {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+#news .inner .wrap article .pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+#news .inner .wrap article:hover img {
+  opacity: 1;
+}
+#news .inner .wrap article h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+#news .inner .wrap article h2 a {
+  font: bold 20px/1 "Black And White Picture";
+  color: #ddd;
+  cursor: pointer;
+}
+#news .inner .wrap article h2 a:hover {
+  color: orange;
+}
+
+body {
+  background-color: #000;
+}
+
+/*# sourceMappingURL=style.css.map */

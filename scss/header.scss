@@ -1,0 +1,44 @@
+header{
+    width: 100%;
+    background-color: #000;
+    .inner{
+        width: 1180px;
+        height: 150px;
+        margin: 0 auto;
+        position: relative;
+        .pic{
+            position: absolute;
+            left: 30px;
+            bottom: 20px;
+            a{
+                img{
+                width: 300px;
+                height: 100px;
+                object-fit: cover;
+              
+
+                }
+            }
+        }
+        nav{     
+            #menuWeb{
+                position: absolute;
+                right: 30px;
+                bottom: 0;
+                li{
+                    float: left;
+                    a{
+                        display: block;
+                        padding: 14px 40px;
+                        font: bold 14px/1 "arial";
+                        color: #777;
+                        &:hover{
+                            background-color: #fff;
+                            color: #555;
+                        }
+                    }
+                }
+            }
+        }
+    }    
+}
